@@ -1,0 +1,23 @@
+%
+% Matlab version of Bernd's CPMrun Maple scripts
+% Using his M matrices
+%
+% The number of alleles may change in the future, but for now it is set to
+% 16
+numalleles = 16;
+
+% Read in the Growth Rate means file and save the Antibiotic names
+%[vertices, GRMeans, ABNames] = ReadMeans();
+
+%numab = length(ABNames); % determine number of antibiotics
+
+% Compute the adjacency list and matrix for this vertex ordering
+vertices = csvread('vertdeglex.csv');
+[adj_list,adj_mat] = CompAdj(vertices);
+
+%
+% Read in Bernd's probability transition matrix
+%
+MatCell = readAll();
+
+winners = CPMrun(MatCell,ABNa)

@@ -1,4 +1,4 @@
-function M = importfile(filename, startRow, endRow)
+function M = readMat(filename, startRow, endRow)
 %IMPORTFILE Import numeric data from a text file as a matrix.
 %   M2 = IMPORTFILE(FILENAME) Reads data from text file FILENAME for the
 %   default selection.

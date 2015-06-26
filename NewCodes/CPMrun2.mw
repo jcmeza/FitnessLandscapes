@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="18" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true" autoexpanding_sections="true">
+</View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" quiet="true" errorcursor="false" longdelim="true" plotoptions="" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="1440" warnlevel="3" screenheight="25" latexwidth="8.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/><Presentation-Block>
+<Group labelreference="L4" drawlabel="true">
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"> ##  Transition matrices for the fitness landscapes of the 15 drugs</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"> ##   computed with &quot;Method 2&quot; in Kristina's write-up of March 9.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">interface(quiet=true):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(linalg): with(combinat):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">an := [ AMP,AM,CEC,CTX,ZOX,CXM,CRO,AMC,CAZ,CTT,SAM,CPR,CPD,TZP,FEP]: </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">labels2 := [<Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0,0,0,0],[1,0,0,0],[0,1,0,0],[0,0,1,0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0,0,0,1],[1,1,0,0],[1,0,1,0],[1,0,0,1],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0,1,1,0],[0,1,0,1],[0,0,1,1],[1,1,1,0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[1,1,0,1],[1,0,1,1],[0,1,1,1],[1,1,1,1]]:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M1 := array([</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .3455153608, .1943516429, .4601329963, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.1882680171, 0, 0, 0, 0, .4128491231, 0, .3988828598, 0, 0, 0, 0, 0, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, .4708736733, 0, 0, .2427096804e-1, .5048553587, 0, 0, 0, 0, 0,0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .1476611445, 0, .8523388555, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, .1510569801, 0, .2099694380, .6389735818, 0, 0, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .4359087587, 0, .5444650175, 0, 0, 0, 0, 0, 0, 0, .1053044461e-1, 0, .9095779128e-2, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, .3096409060, 0, 0, .2870142929, 0, 0, 0, 0, 0, 0, .4033448011],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, .2903450680, 0, 0, .3278727083, 0, 0, 0, 0, .3817822238],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .2137630774, .2314135342, .2567303866, 0, 0, 0, 0, .2980930019], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M2 := array([</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, .9844708460, .1552915396e-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.1352941176, 0, 0, 0, 0, 0, .1862752941, .6784305882, 0, 0, 0, 0, 0, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.6171861963, 0, 0, 0, 0, .2031256152, 0, 0, 0, .1796881885, 0, 0, 0, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .1534845128, 0, 0, 0, 0, 0, 0, 0, 0, 0, .1981204060, .6483950812, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, .5408925955, 0, 0, 0, 0, 0, 0, 0, 0, 0, .4591074045, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .1549361613, .5029328463, 0, 0, 0, 0, 0, 0, 0, .3421309925, 0, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, .2526595745, 0, 0, 0, 0, 0, 0, 0, .7473404255, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, .5058142476, .5232561182e-1, 0, 0, 0, 0, 0, 0, 0, 0, .4418601406, 0,0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .1018775295, 0, 0, 0, 0, 0, 0, 0, 0, .8981224705], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, .7406666667e-1, 0, 0, 0, 0, 0, 0, 0, .9259333333], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .1787042106, .2360594825, .2691184240, 0, 0, 0, 0, .3161178829], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0]]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M3 := array([</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 1.000000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.3403390232, 0, 0, 0, 0, .3221241399, .3375368369, 0, 0, 0, 0, 0, 0, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.1388587490, 0, 0, 0, 0, 0, .1173311219, 0, .1022607496, 0, .6415493795, 0, 0,0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.2871466592, 0, 0, 0, 0, 0, 0, 0, 0, 0, .7128533408, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .3340880336, 0, 0, 0, 0, 0, 0, 0, 0, .6659119664, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .3312722019e-1, 0, 0, .9668727798, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .2879880104, 0, 0, 0, 0, 0, 0, 0, 0, .7120119896, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .7857142857, 0, .2142857143, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, .4775368302, 0, .1781572562e-1, 0, .4068551051, 0, 0, 0, 0, 0,.9779233910e-1], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .4128722254, .1506053560e-1, 0, 0, .4908650329, 0, 0, 0, 0,.8120220614e-1], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .3158376234, .2556469270, .3812508833, 0, 0, 0, 0, .4726456632e-1], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0]]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M4 := array([</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .7589174316e-2, .4533265780, .5390842477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, .2192781692e-1, .9780721831, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .4145153749e-1, 0, .4466317983, 0, .5119166642, 0, 0, 0, 0,0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.3067484663e-1, 0, 0, 0, 0, 0, 0, .2249488753e-1, 0, .2147239264e-1, .9253578732, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 1.000000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .4153858935, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .5846141065, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .4155813571, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .5844186429, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, .1647420070e-1, .2879751239, 0, .3386950150, 0, 0, 0, 0, 0, 0, .3568556603], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, .5232854159e-1, 0, .1896075438e-1, 0, .1797934887e-1, 0, 0, 0, 0, 0, .9107313552], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .2886134872, 0, 0, 0, .3504494278, 0, 0, 0, 0, .3609370850],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .1047286614, 0, .3175670745, 0, 0, 0, 0, .5777042641],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M5 := array([</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .5944514692e-1, .3720827624, .5684720906, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, .1158300264e-1, .9131274802, .7528951715e-1, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .5847176080, .4152823920, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .1002441078, 0, .8997558922, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.5178726889e-1, 0, 0, 0, 0, 0, 0, .1005957105, 0, .3313474485, .5162695722, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 1.000000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 1.000000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, .3759397366e-2, .2378447405, 0, .3110275756, 0, 0, 0, 0, 0, 0, .4473682865], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, .4390275335e-2, 0, .2668005134e-1, 0, .3667681324, 0, 0, 0, 0, 0, .6021615409], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .2160879401, .8726623557e-1, 0, 0, .3564855999, 0, 0, 0, 0, .3401602244], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0]]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M6 := array([</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .7871287129, .2128712871, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.2378459379, 0, 0, 0, 0, .2875094263, .2671652516, .2074793841, 0, 0, 0, 0, 0,0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.6263739017e-1, 0, 0, 0, 0, 0, 0, 0, 0, .6241756590, .3131869509, 0, 0, 0, 0,0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 1.000000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, .1587699164, 0, 0, 0, 0, 0, 0, 0, 0, 0, .8412300836, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, .8711232734e-1, 0, 0, 0, 0, 0, 0, 0, .7100255752e-1, .8418851151,0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .5777851259e-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .9422214874, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .4110812809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .5889187191, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, .5802918014e-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, .3576642751, .5843065447,0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, .1269532955, .9374998169e-1, 0, .3889159397, 0, 0, 0, 0, 0, 0, .3903807831], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, .1660017823, 0, 0, 0, .2374300459, 0, 0, 0, 0, 0, .5965681718],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0]]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M7 := array([</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .5501153089, .4498846911, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.8226364532e-1, 0, 0, 0, 0, .1812942769, .7364420778, 0, 0, 0, 0, 0, 0, 0, 0,0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .4818180472, 0, .1383117242, 0, .3798702285, 0, 0, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.1924686653, 0, 0, 0, 0, 0, 0, .6056976941e-1, 0, .8826445625e-1, .6586971091,0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .5249406235, 0, 0, 0, 0, 0, 0, 0, 0, .4750593765, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .2604791199, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .1893710148, .5501498653, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .9468104120, 0, 0, 0, 0, 0, 0, 0, 0, .5318958804e-1, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .9590370163, 0, 0, 0, 0, 0, 0, 0, 0, 0, .4096298369e-1, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .4705347342, 0, 0, 0, 0, 0, 0, 0, 0, .5294652658], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, .2094200279, 0, 0, 0, 0, 0, 0, 0, 0, 0, .7905799721], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .3376044192, 0, 0, 0, .3157381821, 0, 0, 0, 0, .3466573987],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .2901527229, .2780410040e-1, .3293312280, 0, 0, 0, 0, .3527119488], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M8 := array([</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .6311120000, 0, .3688880000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.1317347628, 0, 0, 0, 0, 0, .8682652372, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.3001336362, 0, 0, 0, 0, 0, .3823527996, 0, 0, 0, .3175135642, 0, 0, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .4584527221e-1, .3381088825, 0, 0, 0, 0, 0, 0, 0, 0, 0, .6160458453, 0, 0,0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .6035193224e-1, 0, 0, .2039721864, 0, 0, 0, 0, 0, 0, 0, .5164245738, .2192513075, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .4185009846, .2585661071, 0, 0, 0, 0, 0, 0, 0, .3229329083, 0, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .1389585331, 0, 0, 0, 0, 0, 0, 0, 0, 0, .8610414669, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, .4666658667, 0, 0, 0, 0, 0, 0, 0, 0, .5333341333, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, .9699778014e-1, .3198612655, 0, 0, 0, 0, 0, 0, 0, 0, .5831409544], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .1257461571e-2, .3376717926, .3011765721, 0, 0, 0, 0,.3598941738], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0]]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M9 := array([</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, .4813587160, .5186412840, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.3187509228, 0, 0, 0, 0, .4043746714, .2272269889, .4964741700e-1, 0, 0, 0, 0,0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.4061472694e-1, 0, 0, 0, 0, .2583241529, 0, 0, .3874864490, .3135746712, 0, 0,0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .8155551585, 0, .1844448415, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, .7594917481, .2405082519, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .8494612903, .1505387097, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, .4403038728, 0, 0, 0, 0, 0, 0, 0, .5596961272, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, .4173912485, 0, 0, 0, 0, 0, 0, 0, .4215719837, .1610367678, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .8305261021e-1, 0, 0, 0, .4814586668, 0, 0, 0, 0, .4354887230], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .2693082916, .2523505370, .2454667568, 0, 0, 0, 0, .2328744147], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .7434449438, .2565550562, 0, 0, 0]]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M10 := array([</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .3763379579, .3940844388, .2295776033, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .2201397847, 0, .7798602153, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.9186737462e-1, 0, 0, 0, 0, 0, 0, .4717620312, 0, .4363705942, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .2511855632, .2560833318, 0, 0, 0, 0, 0, 0, 0, 0, .2469097645, .2458213404, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .5344177894, 0, 0, 0, 0, 0, 0, 0, 0, 0, .4655822106, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .5589743590, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .4410256410, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .2804465349, 0, 0, 0, 0, 0, 0, 0, 0, .1486031707, 0, 0, .5709502944, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .3063290159, 0, 0, 0, 0, 0, 0, 0, 0, 0, .2227846698, 0, .4708863144, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, .3272637965, .1969734550, 0, 0, 0, 0, 0, 0, 0, 0, .4466042868e-1, .4311023198, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .3482377336, .3628021978, 0, 0, 0, 0, 0, 0, 0, .2889600686],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .2884117620, .2832283500, 0, .4283598879, 0]]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M11 := array([</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .2055973783, .3724433778, 0, .4219592439, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, .3881860759, .1402949367, .4715189873, 0, 0, 0, 0, 0, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.4452710826, 0, 0, 0, 0, 0, .5547289174, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .4632465984e-1, .9536753402, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .2758620690, 0, .7241379310, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .5774809365, .4225190635, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .4863243797, .1025581844e-1, 0, 0, 0, 0, 0, 0, 0, .5011855081, 0, 0, .2234293786e-2, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .2818533557e-1, 0, .1409310896, 0, 0, 0, 0, 0, 0, 0, .8308835748, 0, 0,0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, .7426932971e-2, .4627575362, 0, 0, 0, 0, 0, 0, 0, 0, .5298155309, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, .4108437982, 0, 0, 0, 0, 0, .5891562018], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M12 := array([</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .9346581030, .6534189695e-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[1.000000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .4264739619, .5735260381, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .9254144471, 0, .7458555294e-1, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.1376396351, 0, 0, 0, 0, 0, 0, 0, 0, .6544952910, .2078650739, 0, 0, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .2813105007, .3794257798, 0, 0, 0, 0, 0, 0, 0, 0, .3357406613, .3523058201e-2, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .2961777699, 0, .3408000727, 0, 0, 0, 0, 0, 0, 0, .3511111149, 0, .1191104254e-1, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .4799628903, 0, 0, .5200371097, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, .8880647319e-2, 0, .9649207504, 0, 0, 0, 0, 0, .2619860231e-1], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, .2099999580e-1, 0, 0, .9385000123, 0, 0, 0, 0, .4049999190e-1], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .3445074599, .3460812087, .2960339943, 0, 0, 0, 0, .1337733711e-1], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0]]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M13 := array([</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .3671914961, .6328085039, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.6310357404e-1, 0, 0, 0, 0, .7952341508e-1, .8573730109, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .5900874016e-1, 0, .3867230967, 0, .5542681631, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.7749078635e-1, 0, 0, 0, 0, 0, 0, .3173424823e-1, 0, .2714021803, .6193727851, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .6252319574, 0, 0, 0, 0, 0, 0, 0, 0, .1808906052, .1938774374, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .3198078821e-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .4409590842, .5270601276, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, .1514360313, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .8485639687, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .2841514484, 0, .3277700228, 0, 0, 0, 0, 0, 0, .3880785288],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, .1752484192, 0, 0, 0, 0, 0, .8247515808], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .2738393248, 0, 0, 0, .3431098415, 0, 0, 0, 0, .3830508337],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M14 := array([</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .4878056712e-1, .5826562320, 0, .3685632009, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.7146233157, 0, 0, 0, 0, 0, 0, 0, .2853766843, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .2272393379, .5188744354, 0, 0, 0, 0, 0, 0, 0, 0, 0, .2538862267, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .4851816444, 0, .4311663480, 0, 0, 0, 0, 0, 0, 0, .8365200765e-1, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, .2448783435, 0, 0, .4751213756, 0, 0, 0, 0, 0, 0, 0, .2800002810, 0, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 1.000000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, .4524163380, .5472537264, 0, 0, 0, 0, 0, 0, 0, 0, 0, .3299356101e-3, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, .4901439176, 0, 0, .5098560824, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .3002414053e-1, .9220602935, 0, 0, .1821094940e-1, 0, 0, 0, 0, .2970461658e-1], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .4274193548, .5675030466, 0, 0, 0, 0, 0, .5077598566e-2], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .1457872968, .8542127032, 0, 0, 0]]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M15 := array([</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.2126650661, 0, 0, 0, 0, .2715882271, .3616662982, .1540804086, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.1464604894, 0, 0, 0, 0, .2880389624, 0, 0, .2066723493, .3588281989, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.1350114542, 0, 0, 0, 0, 0, .3867275270, 0, .1773457113, 0, .3009153075, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[.3565579988e-1, 0, 0, 0, 0, 0, 0, 0, 0, .4586709351, .5056732651, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .3215852743, .6784147257, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, .1723751063, 0, 0, 0, 0, 0, 0, 0, .5719170248, .2557078689, 0, 0],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .2834074301, 0, 0, 0, 0, 0, 0, 0, 0, .7165925699], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.000000000], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, .2964940265, 0, 0, 0, .1821648279, 0, 0, 0, 0, .5213411455],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, .2255064695, .2427255817, .2453959679, 0, 0, 0, 0, .2863719809], </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N1 := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N2 := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N3 := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N4 := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N5 := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N6 := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N7 := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N8 := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N9 := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N10 := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N11 := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N12 := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N13 := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N14 := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N15 := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i from 1 to 16 do for j from 1 to 16 do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N1[i,j] := M1[i,j]*cat(an[1],`_`,labels2[i][],`_`,labels2[j][]): </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N2[i,j] := M2[i,j]*cat(an[2],`_`,labels2[i][],`_`,labels2[j][]): </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N3[i,j] := M3[i,j]*cat(an[3],`_`,labels2[i][],`_`,labels2[j][]): </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N4[i,j] := M4[i,j]*cat(an[4],`_`,labels2[i][],`_`,labels2[j][]): </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N5[i,j] := M5[i,j]*cat(an[5],`_`,labels2[i][],`_`,labels2[j][]): </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N6[i,j] := M6[i,j]*cat(an[6],`_`,labels2[i][],`_`,labels2[j][]): </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N7[i,j] := M7[i,j]*cat(an[7],`_`,labels2[i][],`_`,labels2[j][]): </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N8[i,j] := M8[i,j]*cat(an[8],`_`,labels2[i][],`_`,labels2[j][]): </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N9[i,j] := M9[i,j]*cat(an[9],`_`,labels2[i][],`_`,labels2[j][]): </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N10[i,j] := M10[i,j]*cat(an[10],`_`,labels2[i][],`_`,labels2[j][]): </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N11[i,j] := M11[i,j]*cat(an[11],`_`,labels2[i][],`_`,labels2[j][]): </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N12[i,j] := M12[i,j]*cat(an[12],`_`,labels2[i][],`_`,labels2[j][]): </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N13[i,j] := M13[i,j]*cat(an[13],`_`,labels2[i][],`_`,labels2[j][]): </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N14[i,j] := M14[i,j]*cat(an[14],`_`,labels2[i][],`_`,labels2[j][]): </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">N15[i,j] := M15[i,j]*cat(an[15],`_`,labels2[i][],`_`,labels2[j][]): </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od: od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">IdentityMatrix := array([],1..16,1..16):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i from 1 to 16 do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for j from 1 to 16 do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  if (i = j) then IdentityMatrix[i,j] := 1: else IdentityMatrix[i,j] := 0: fi:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od:od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">choices := [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">length2 := cartprod([choices,choices]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">length3 := cartprod([choices,choices,choices]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">length4 := cartprod([choices,choices,choices,choices]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">length5 := cartprod([choices,choices,choices,choices,choices]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">length6 := cartprod([choices,choices,choices,choices,choices,choices]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for L in [ length2] do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">winners := [[0,{}],[0,{}],[0,{}],[0,{}],[0,{}],[0,{}],[0,{}],[0,{}],</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">            [0,{}],[0,{}],[0,{}],[0,{}],[0,{}],[0,{}],[0,{}],[0,{}]]:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">while not L[finished] do seqq := L[nextvalue]():</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">R := IdentityMatrix:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i from 1 to nops(seqq) do R := multiply(R,cat(M,seqq[i])): od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"># lprint(seqq,time());</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for gg from 2 to 16 do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">if (R[gg,1] &gt; winners[gg][1]) then</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  winners[gg][1] := R[gg,1]:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  winners[gg][2] := {seqq}:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">fi:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">if (R[gg,1] = winners[gg][1]) then</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  winners[gg][2] := winners[gg][2] union {seqq}:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">fi:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">end do:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">pathways := {}:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for gg from 2 to 16 do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">if (winners[gg][1]=0) then  winners[gg][1] := NONE: winners[gg][2] := {}: fi:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">print(` `);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lprint(labels2[gg],evalf(winners[gg][1])=winners[gg][1],nops(winners[gg][2]));</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">druglabels := {}:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for seqq in winners[gg][2] do uu := []:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  for i from 1 to nops(seqq) do uu := [uu[],an[seqq[i]]]: od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  druglabels := druglabels union {uu}: </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lprint(seqq,time());</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">R := IdentityMatrix:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i from 1 to nops(seqq) do R := multiply(R,cat(N,seqq[i])): od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">genfct := expand(R[gg,1]):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mypathways := {}:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">if (type(genfct,monomial)) then</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  mypathways := mypathways union {genfct}:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  else </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  for j from 1 to nops(genfct) do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  mypathways := mypathways union {op(j,genfct)}:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"> od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">fi:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lprint(uu,nops(mypathways));</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for mm in mypathways do lprint(mm); od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">pathways := pathways union mypathways:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">print(` `); lprint(`Transitions used in optimal pathways:`);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for transition in indets(pathways) do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"> count := 0:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"> for pp in pathways do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">   if (member(transition,indets(pp))) then count := count + 1: fi:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"> od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"> lprint(transition,count);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">print(time());</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[1, 1], 5.213
+[1, 2], 5.220
+[1, 3], 5.227
+[1, 4], 5.250
+[1, 5], 5.256
+[1, 6], 5.263
+[1, 7], 5.269
+[1, 8], 5.276
+[1, 9], 5.282
+[1, 10], 5.288
+[1, 11], 5.295
+[1, 12], 5.301
+[1, 13], 5.307
+[1, 14], 5.313
+[1, 15], 5.319
+[2, 1], 5.325
+[2, 2], 5.332
+[2, 3], 5.338
+[2, 4], 5.344
+[2, 5], 5.349
+[2, 6], 5.355</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[2, 7], 5.361
+[2, 8], 5.367
+[2, 9], 5.374
+[2, 10], 5.381
+[2, 11], 5.387
+[2, 12], 5.393
+[2, 13], 5.400
+[2, 14], 5.407
+[2, 15], 5.413
+[3, 1], 5.419
+[3, 2], 5.425
+[3, 3], 5.431
+[3, 4], 5.450
+[3, 5], 5.456
+[3, 6], 5.462
+[3, 7], 5.469
+[3, 8], 5.475
+[3, 9], 5.481
+[3, 10], 5.487
+[3, 11], 5.493
+[3, 12], 5.499
+[3, 13], 5.504
+[3, 14], 5.510
+[3, 15], 5.516
+[4, 1], 5.523
+[4, 2], 5.528
+[4, 3], 5.534
+[4, 4], 5.540
+[4, 5], 5.545</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[4, 6], 5.551
+[4, 7], 5.557
+[4, 8], 5.563
+[4, 9], 5.569
+[4, 10], 5.575
+[4, 11], 5.581
+[4, 12], 5.588
+[4, 13], 5.595
+[4, 14], 5.602
+[4, 15], 5.608
+[5, 1], 5.615
+[5, 2], 5.621
+[5, 3], 5.628
+[5, 4], 5.648
+[5, 5], 5.654
+[5, 6], 5.660
+[5, 7], 5.666
+[5, 8], 5.672
+[5, 9], 5.679
+[5, 10], 5.685
+[5, 11], 5.691
+[5, 12], 5.697
+[5, 13], 5.703
+[5, 14], 5.709
+[5, 15], 5.715
+[6, 1], 5.721
+[6, 2], 5.727
+[6, 3], 5.733</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[6, 4], 5.739
+[6, 5], 5.745
+[6, 6], 5.751
+[6, 7], 5.758
+[6, 8], 5.764
+[6, 9], 5.771
+[6, 10], 5.777
+[6, 11], 5.784
+[6, 12], 5.790
+[6, 13], 5.797
+[6, 14], 5.803
+[6, 15], 5.809
+[7, 1], 5.815
+[7, 2], 5.821
+[7, 3], 5.828
+[7, 4], 5.846
+[7, 5], 5.852
+[7, 6], 5.859
+[7, 7], 5.865
+[7, 8], 5.871
+[7, 9], 5.877
+[7, 10], 5.884
+[7, 11], 5.890
+[7, 12], 5.896
+[7, 13], 5.902
+[7, 14], 5.908
+[7, 15], 5.917
+[8, 1], 5.923</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[8, 2], 5.929
+[8, 3], 5.935
+[8, 4], 5.942
+[8, 5], 5.949
+[8, 6], 5.956
+[8, 7], 5.961
+[8, 8], 5.968
+[8, 9], 5.975
+[8, 10], 5.982
+[8, 11], 5.988
+[8, 12], 5.994
+[8, 13], 6.000
+[8, 14], 6.006
+[8, 15], 6.013
+[9, 1], 6.018
+[9, 2], 6.024
+[9, 3], 6.030
+[9, 4], 6.049
+[9, 5], 6.056
+[9, 6], 6.062
+[9, 7], 6.068
+[9, 8], 6.074
+[9, 9], 6.080
+[9, 10], 6.087
+[9, 11], 6.093
+[9, 12], 6.099
+[9, 13], 6.105
+[9, 14], 6.112</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[9, 15], 6.120
+[10, 1], 6.126
+[10, 2], 6.132
+[10, 3], 6.140
+[10, 4], 6.147
+[10, 5], 6.153
+[10, 6], 6.160
+[10, 7], 6.167
+[10, 8], 6.174
+[10, 9], 6.180
+[10, 10], 6.187
+[10, 11], 6.193
+[10, 12], 6.199
+[10, 13], 6.205
+[10, 14], 6.211
+[10, 15], 6.217
+[11, 1], 6.223
+[11, 2], 6.229
+[11, 3], 6.236
+[11, 4], 6.254
+[11, 5], 6.261
+[11, 6], 6.267
+[11, 7], 6.273
+[11, 8], 6.279
+[11, 9], 6.285
+[11, 10], 6.291
+[11, 11], 6.297
+[11, 12], 6.303</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[11, 13], 6.309
+[11, 14], 6.316
+[11, 15], 6.322
+[12, 1], 6.329
+[12, 2], 6.336
+[12, 3], 6.343
+[12, 4], 6.349
+[12, 5], 6.355
+[12, 6], 6.362
+[12, 7], 6.369
+[12, 8], 6.375
+[12, 9], 6.381
+[12, 10], 6.387
+[12, 11], 6.393
+[12, 12], 6.399
+[12, 13], 6.405
+[12, 14], 6.412
+[12, 15], 6.419
+[13, 1], 6.425
+[13, 2], 6.432
+[13, 3], 6.438
+[13, 4], 6.457
+[13, 5], 6.463
+[13, 6], 6.469
+[13, 7], 6.475
+[13, 8], 6.482
+[13, 9], 6.490
+[13, 10], 6.497</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[13, 11], 6.504
+[13, 12], 6.511
+[13, 13], 6.517
+[13, 14], 6.525
+[13, 15], 6.532
+[14, 1], 6.538
+[14, 2], 6.544
+[14, 3], 6.553
+[14, 4], 6.559
+[14, 5], 6.566
+[14, 6], 6.572
+[14, 7], 6.578
+[14, 8], 6.584
+[14, 9], 6.591
+[14, 10], 6.597
+[14, 11], 6.604
+[14, 12], 6.610
+[14, 13], 6.616
+[14, 14], 6.623
+[14, 15], 6.629
+[15, 1], 6.635
+[15, 2], 6.642
+[15, 3], 6.649
+[15, 4], 6.668
+[15, 5], 6.674
+[15, 6], 6.680
+[15, 7], 6.686
+[15, 8], 6.692</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[15, 9], 6.698
+[15, 10], 6.705
+[15, 11], 6.712
+[15, 12], 6.718
+[15, 13], 6.724
+[15, 14], 6.730
+[15, 15], 6.737</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[1, 0, 0, 0], 1.000000000 = 1.000000000, 3
+[10, 12], 6.737
+[CTT, CPR], 1
+1.000000000*CTT_1000_1000*CPR_1000_0000
+[12, 15], 6.745
+[CPR, FEP], 1
+1.000000000*CPR_1000_0000*FEP_0000_0000
+[14, 12], 6.755
+[TZP, CPR], 1
+1.000000000*TZP_1000_1000*CPR_1000_0000</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[0, 1, 0, 0], .6171861963 = .6171861963, 6
+[2, 15], 6.763</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[AM, FEP], 1
+.6171861963*AM_0100_0000*FEP_0000_0000
+[3, 2], 6.771
+[CEC, AM], 1
+.6171861963*CEC_0100_0100*AM_0100_0000
+[6, 2], 6.780
+[CXM, AM], 1
+.6171861963*CXM_0100_0100*AM_0100_0000
+[7, 2], 6.788
+[CRO, AM], 1
+.6171861963*CRO_0100_0100*AM_0100_0000
+[8, 2], 6.796
+[AMC, AM], 1
+.6171861963*AMC_0100_0100*AM_0100_0000
+[10, 2], 6.804
+[CTT, AM], 1
+.6171861963*CTT_0100_0100*AM_0100_0000</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[0, 0, 1, 0], .7146233157 = .7146233157, 2
+[2, 14], 6.811
+[AM, TZP], 1
+.7146233157*AM_0010_0010*TZP_0010_0000
+[14, 15], 6.821
+[TZP, FEP], 1
+.7146233157*TZP_0010_0000*FEP_0000_0000</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[0, 0, 0, 1], .2871466592 = .2871466592, 1
+[3, 15], 6.829
+[CEC, FEP], 1
+.2871466592*CEC_0001_0000*FEP_0000_0000</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[1, 1, 0, 0], .6171861963 = .6171861963, 3
+[4, 2], 6.836
+[CTX, AM], 1
+.6171861963*CTX_1100_0100*AM_0100_0000
+[5, 2], 6.845
+[ZOX, AM], 1
+.6171861963*ZOX_1100_0100*AM_0100_0000
+[6, 2], 6.852
+[CXM, AM], 1
+.6171861963*CXM_1100_0100*AM_0100_0000</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[1, 0, 1, 0], .7146233157 = .7146233157, 1
+[5, 14], 6.859
+[ZOX, TZP], 1
+.7146233157*ZOX_1010_0010*TZP_0010_0000</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[1, 0, 0, 1], .5589743590 = .5589743590, 1
+[10, 12], 6.868
+[CTT, CPR], 1
+.5589743590*CTT_1001_1000*CPR_1000_0000</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[0, 1, 1, 0], .6171861963 = .6171861963, 1
+[14, 2], 6.876
+[TZP, AM], 1
+.6171861963*TZP_0110_0100*AM_0100_0000</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[0, 1, 0, 1], .5919044082 = .5919044082, 1
+[7, 2], 6.899
+[CRO, AM], 1
+.5919044082*CRO_0101_0100*AM_0100_0000</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[0, 0, 1, 1], .3614666547 = .3614666547, 1
+[2, 14], 6.907
+[AM, TZP], 1
+.3614666547*AM_0011_0010*TZP_0010_0000</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[1, 1, 1, 0], NONE = NONE, 0</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[1, 1, 0, 1], NONE = NONE, 0</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[1, 0, 1, 1], NONE = NONE, 0</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[0, 1, 1, 1], NONE = NONE, 0</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">[1, 1, 1, 1], NONE = NONE, 0</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSJ+RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">`Transitions used in optimal pathways:`
+AMC_0100_0100, 1
+AM_0010_0010, 1
+AM_0011_0010, 1
+AM_0100_0000, 11
+CEC_0001_0000, 1
+CEC_0100_0100, 1
+CPR_1000_0000, 4
+CRO_0100_0100, 1
+CRO_0101_0100, 1
+CTT_0100_0100, 1
+CTT_1000_1000, 1
+CTT_1001_1000, 1
+CTX_1100_0100, 1
+CXM_0100_0100, 1
+CXM_1100_0100, 1
+FEP_0000_0000, 4
+TZP_0010_0000, 4
+TZP_0110_0100, 1
+TZP_1000_1000, 1
+ZOX_1010_0010, 1
+ZOX_1100_0100, 1</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIlP3AhIiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L5" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">JSFH</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>

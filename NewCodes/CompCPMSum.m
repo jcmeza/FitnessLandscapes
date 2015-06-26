@@ -1,11 +1,21 @@
 function [fitnessSum] = CompCPMSum(adj_list,growthmeans)
-
+%
+% Helper function for CompCPM 
+%
+% Input
+%   adj_list ........ adjacency list of neighbors
+%   growthmeans ..... growth means for this particular antibiotic
+% 
+% Output
+%   fitSum .......... the sum of the fitnesses of the neighbors
+%
+%
 [n,m] = size(adj_list); 
 %
-% for each allele check neighbors
+% for each genotype check neighbors
 %
 fitnessSum = zeros(n,1);
-currentfitness = 0;
+
 for i=1:n
     alphai = growthmeans(i);
     for k=1:m

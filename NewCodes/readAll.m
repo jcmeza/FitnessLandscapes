@@ -1,3 +1,4 @@
+function MatCell = readAll()
 %
 % Read in all the csv files
 %
@@ -19,5 +20,5 @@ M15 = readMat('M15.csv');
 %
 % Now create cell array to hold them all
 %
-Matcell = {M1,M2,M3,M4,M5,M6,M7,M8,M9,M10,M11,M12,M13,M14,M15}
+MatCell = {M1,M2,M3,M4,M5,M6,M7,M8,M9,M10,M11,M12,M13,M14,M15};
 
