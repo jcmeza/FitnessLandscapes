@@ -1,4 +1,4 @@
-function winners = CPMrun(MatCell,ABNames)
+function winners = CPMrun3(MatCell,ABNames)
 %
 % Compute every combination of length 2 transition probability matrices
 % which corresponds to antibiotic cycles of length 2

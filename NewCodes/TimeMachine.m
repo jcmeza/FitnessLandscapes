@@ -25,7 +25,15 @@ for i=1:numab
     MMatrixCell(i) = {ProbMat};
 end
 
-winners = CPMrun(MMatrixCell,ABNames);
+%
+% Choose the cycle path 
+%   CPMrun2 .... length 2 cycles
+%   CPMrun3 .... length 3 cycles
+%   CPMrun4 .... length 4 cycles
+%
+%winners = CPMrun2(MMatrixCell,ABNames);
+%winners = CPMrun3(MMatrixCell,ABNames);
+winners = CPMrun4(MMatrixCell,ABNames);
 
 %
 % Print out results in a nice readable format
