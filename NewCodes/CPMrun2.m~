@@ -23,18 +23,19 @@ end
 
 for i=1:numab
     for j=1:numab
-        treatij = [ABNames(i),'+', ABNames(j)];
         MatProd = MatCell{i}*MatCell{j};
         WildProb = MatProd(:,1);
         nzprob = find(WildProb)'; % find nonzero probabilities
-
+        treatij = [ABNames(i),'+', ABNames(j)];
+        %for k=2:16
         for k = nzprob %only check when WildProb(k) ~= 0
-            if WildProb(k) > winners{k,1}
-                winners{k,1} = WildProb(k);
-                winners{k,2} = treatij;
-            elseif WildProb(k) == winners{k,1}
-                winners{k,2} = [winners{k,2}; treatij];
-            end
+                 if WildProb(k) > winners{k,1}
+                        winners{k,1} = WildProb(k);
+                        winners{k,2} = treatij;
+                    elseif WildProb(k) == winners{k,1}
+                        winners{k,2} = [winners{k,2}; treatij];
+                 end
+            %end
         end
     end
 end

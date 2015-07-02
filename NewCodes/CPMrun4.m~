@@ -20,15 +20,15 @@ winners = cell(numalleles,2);    % initialize cell of winners.
 for i1=1:numalleles winners{i1,1} = 0; end
 
 for i1=1:numab
-    Mat1 = MatCell{i1};
+    MatProd = MatCell{i1};
     for i2=1:numab
-        Mat2 = Mat1*MatCell{i2};
+        MatProd = MatProd*MatCell{i2};
         for i3=1:numab
-            Mat3 = Mat2*MatCell{i3};
+            MatProd = MatProd*MatCell{i3};
             for i4=1:numab
                 treatijlm = [ABNames(i1),'+', ABNames(i2),'+',ABNames(i3),'+',ABNames(i4)];
-                Mat4 = Mat3*MatCell{i4};
-                WildProb = Mat4(:,1);        
+                MatProd = MatCell{i1}*MatCell{i2}*MatCell{i3};
+                WildProb = MatProd(:,1);        
                 nzprob = find(WildProb)'; % find nonzero probabilities
                 
                 for k=nzprob %only check when WildProb(k) ~= 0  

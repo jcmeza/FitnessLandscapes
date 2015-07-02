@@ -22,18 +22,17 @@ for i=1:numalleles winners{i,1} = 0; end
 for i=1:numab
     for j=1:numab
         for l=1:numab
-            %treatijl = strcat(ABNames(i),'+', ABNames(j),'+',ABNames(l));
             treatijl = [ABNames(i),'+', ABNames(j),'+',ABNames{l}];
-            MatProd = MatCell{i}*MatCell{j}*MatCell{l};   
-            for k=2:16
-                WildProb = MatProd(k,1);
-                if WildProb ~= 0
-                    if WildProb > winners{k,1}
-                        winners{k,1} = WildProb;
-                        winners{k,2} = treatijl;
-                    elseif WildProb == winners{k,1}
-                        winners{k,2} = [winners{k,2}; treatijl];
-                    end
+            MatProd = MatCell{i}*MatCell{j}*MatCell{l}; 
+            WildProb = MatProd(:,1);        
+            nzprob = find(WildProb)'; % find nonzero probabilities
+            
+            for k=nzprob
+                if WildProb > winners{k,1}
+                    winners{k,1} = WildProb;
+                    winners{k,2} = treatijl;
+                elseif WildProb == winners{k,1}
+                    winners{k,2} = [winners{k,2}; treatijl];
                 end     
             end
         end

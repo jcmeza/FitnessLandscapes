@@ -30,22 +30,22 @@ for i1=1:numab
       for i4=1:numab
         Mat4 = Mat3*MatCell{i4};
         for i5=1:numab
-            MatProd = Mat4*MatCell{i5};
             treatijlmk= [ABNames(i1),'+', ABNames(i2),'+',ABNames(i3),'+',ABNames(i4),'+',ABNames(i5)];
-            for k=2:16
-              WildProb = MatProd(k,1);
-              if WildProb ~= 0
-                if WildProb > winners{k,1}
-                   winners{k,1} = WildProb;
+            Mat5 = Mat4*MatCell{i5};
+            WildProb = Mat5(:,1);        
+            nzprob = find(WildProb)'; % find nonzero probabilities
+ 
+            for k=nzprob
+                if WildProb(k) > winners{k,1}
+                   winners{k,1} = WildProb(k);
                    winners{k,2} = treatijlmk;
-                elseif WildProb == winners{k,1}
+                elseif WildProb(k) == winners{k,1}
                      winners{k,2} = [winners{k,2}; treatijlmk];
                 end
-              end     
-            end
+            end     
         end
       end
     end
   end
 end
-        
+end
