@@ -24,7 +24,7 @@ end
 for i=1:numab
     for j=1:numab
         MatProd = MatCell{i}*MatCell{j};
-        treatij = strcat(ABNames(i),'+', ABNames(j));
+        treatij = [ABNames(i),'+', ABNames(j)];
         for k=2:16
             WildProb = MatProd(k,1);
             if WildProb ~= 0

@@ -1,0 +1,229 @@
+Output File name: T85Length3.out
+
+ [1  0  0  0] Prob =  1.000000e+00
+    14 Plans found:
+     1 AM 256 + AM 256 + CPR 32 
+     2 AMC 8.16 + AMC 8.16 + CXM 2.25 
+     3 AMC 8.16 + CTT 0.025 + CPR 32 
+     4 AMC 8.16 + CTX 0.04 + CPR 32 
+     5 AMC 8.16 + CXM 2.25 + CXM 2.25 
+     6 AMC 8.16 + CXM 2.25 + SAM 8.8 
+     7 AMC 8.16 + SAM 8.8 + CXM 2.25 
+     8 AMC 8.16 + SAM 8.8 + SAM 8.8 
+     9 AMC 8.16 + TZP 8.64 + CPR 32 
+    10 AMC 8.16 + TZP 8.64 + CXM 2.25 
+    11 CAZ 0.25 + AM 256 + CPR 32 
+    12 CPD 128 + AM 256 + CPR 32 
+    13 CRO 0.05 + AM 256 + CPR 32 
+    14 FEP 0.0625 + AM 256 + CPR 32 
+
+ [0  1  0  0] Prob =  1.000000e+00
+    19 Plans found:
+     1 AM 256 + AM 256 + CPR 32 
+     2 AM 256 + AMP 2048 + CPR 32 
+     3 AM 256 + CPR 32 + CXM 2.25 
+     4 AM 256 + CPR 32 + SAM 8.8 
+     5 AMP 2048 + AM 256 + CPR 32 
+     6 AMP 2048 + AMP 2048 + CPR 32 
+     7 AMP 2048 + CPR 32 + CXM 2.25 
+     8 AMP 2048 + CPR 32 + SAM 8.8 
+     9 CAZ 0.25 + AM 256 + CPR 32 
+    10 CPR 32 + AMC 8.16 + CXM 2.25 
+    11 CPR 32 + CTT 0.025 + CPR 32 
+    12 CPR 32 + CTX 0.04 + CPR 32 
+    13 CPR 32 + CXM 2.25 + CXM 2.25 
+    14 CPR 32 + CXM 2.25 + SAM 8.8 
+    15 CPR 32 + SAM 8.8 + CXM 2.25 
+    16 CPR 32 + SAM 8.8 + SAM 8.8 
+    17 CPR 32 + TZP 8.64 + CPR 32 
+    18 CPR 32 + TZP 8.64 + CXM 2.25 
+    19 FEP 0.0625 + AM 256 + CPR 32 
+
+ [0  0  1  0] Prob =  1.000000e+00
+    64 Plans found:
+     1 AM 256 + CXM 2.25 + CXM 2.25 
+     2 AM 256 + TZP 8.64 + CPR 32 
+     3 AMC 8.16 + AMC 8.16 + CXM 2.25 
+     4 AMC 8.16 + CXM 2.25 + CXM 2.25 
+     5 AMC 8.16 + TZP 8.64 + CPR 32 
+     6 AMC 8.16 + TZP 8.64 + CXM 2.25 
+     7 AMP 2048 + CXM 2.25 + CXM 2.25 
+     8 AMP 2048 + TZP 8.64 + CPR 32 
+     9 CAZ 0.25 + CAZ 0.25 + CPR 32 
+    10 CAZ 0.25 + CAZ 0.25 + CXM 2.25 
+    11 CAZ 0.25 + CPR 32 + CXM 2.25 
+    12 CAZ 0.25 + CPR 32 + SAM 8.8 
+    13 CAZ 0.25 + CXM 2.25 + CXM 2.25 
+    14 CAZ 0.25 + CXM 2.25 + SAM 8.8 
+    15 CAZ 0.25 + TZP 8.64 + CPR 32 
+    16 CAZ 0.25 + TZP 8.64 + CXM 2.25 
+    17 CEC 4 + AMC 8.16 + CXM 2.25 
+    18 CEC 4 + CPR 32 + CXM 2.25 
+    19 CEC 4 + CXM 2.25 + CXM 2.25 
+    20 CEC 4 + TZP 8.64 + CPR 32 
+    21 CEC 4 + TZP 8.64 + CXM 2.25 
+    22 CPD 128 + CXM 2.25 + CPR 32 
+    23 CPD 128 + CXM 2.25 + CXM 2.25 
+    24 CPD 128 + FEP 0.0625 + CPR 32 
+    25 CPD 128 + TZP 8.64 + CPR 32 
+    26 CPR 32 + AMC 8.16 + CXM 2.25 
+    27 CPR 32 + CTT 0.025 + CPR 32 
+    28 CPR 32 + CTX 0.04 + CPR 32 
+    29 CPR 32 + CXM 2.25 + CXM 2.25 
+    30 CPR 32 + CXM 2.25 + SAM 8.8 
+    31 CPR 32 + SAM 8.8 + CXM 2.25 
+    32 CPR 32 + SAM 8.8 + SAM 8.8 
+    33 CPR 32 + TZP 8.64 + CPR 32 
+    34 CPR 32 + TZP 8.64 + CXM 2.25 
+    35 CTT 0.025 + CXM 2.25 + CPR 32 
+    36 CTT 0.025 + CXM 2.25 + CXM 2.25 
+    37 CTT 0.025 + FEP 0.0625 + CPR 32 
+    38 CTT 0.025 + TZP 8.64 + CPR 32 
+    39 CTX 0.04 + CXM 2.25 + CPR 32 
+    40 CTX 0.04 + CXM 2.25 + CXM 2.25 
+    41 CTX 0.04 + FEP 0.0625 + CPR 32 
+    42 CTX 0.04 + TZP 8.64 + CPR 32 
+    43 CXM 2.25 + AMC 8.16 + CXM 2.25 
+    44 CXM 2.25 + CTT 0.025 + CPR 32 
+    45 CXM 2.25 + CTX 0.04 + CPR 32 
+    46 CXM 2.25 + CXM 2.25 + CXM 2.25 
+    47 CXM 2.25 + CXM 2.25 + SAM 8.8 
+    48 CXM 2.25 + SAM 8.8 + CXM 2.25 
+    49 CXM 2.25 + SAM 8.8 + SAM 8.8 
+    50 CXM 2.25 + TZP 8.64 + CPR 32 
+    51 CXM 2.25 + TZP 8.64 + CXM 2.25 
+    52 FEP 0.0625 + CXM 2.25 + CXM 2.25 
+    53 SAM 8.8 + AMC 8.16 + CXM 2.25 
+    54 SAM 8.8 + CXM 2.25 + CXM 2.25 
+    55 SAM 8.8 + TZP 8.64 + CPR 32 
+    56 SAM 8.8 + TZP 8.64 + CXM 2.25 
+    57 TZP 8.64 + CAZ 0.25 + CPR 32 
+    58 TZP 8.64 + CAZ 0.25 + CXM 2.25 
+    59 TZP 8.64 + CPR 32 + CXM 2.25 
+    60 TZP 8.64 + CPR 32 + SAM 8.8 
+    61 TZP 8.64 + CXM 2.25 + CXM 2.25 
+    62 TZP 8.64 + CXM 2.25 + SAM 8.8 
+    63 TZP 8.64 + TZP 8.64 + CPR 32 
+    64 TZP 8.64 + TZP 8.64 + CXM 2.25 
+
+ [0  0  0  1] Prob =  1.000000e+00
+    22 Plans found:
+     1 AM 256 + AM 256 + CXM 2.25 
+     2 AM 256 + AMC 8.16 + CXM 2.25 
+     3 AM 256 + CXM 2.25 + CXM 2.25 
+     4 AM 256 + CXM 2.25 + SAM 8.8 
+     5 AMC 8.16 + AM 256 + CXM 2.25 
+     6 AMC 8.16 + AMC 8.16 + CXM 2.25 
+     7 AMC 8.16 + CXM 2.25 + CXM 2.25 
+     8 AMC 8.16 + CXM 2.25 + SAM 8.8 
+     9 AMP 2048 + AMC 8.16 + CXM 2.25 
+    10 AMP 2048 + CPR 32 + CXM 2.25 
+    11 AMP 2048 + CXM 2.25 + CXM 2.25 
+    12 AMP 2048 + TZP 8.64 + CPR 32 
+    13 AMP 2048 + TZP 8.64 + CXM 2.25 
+    14 CXM 2.25 + AMC 8.16 + CXM 2.25 
+    15 CXM 2.25 + CTT 0.025 + CPR 32 
+    16 CXM 2.25 + CTX 0.04 + CPR 32 
+    17 CXM 2.25 + CXM 2.25 + CXM 2.25 
+    18 CXM 2.25 + CXM 2.25 + SAM 8.8 
+    19 CXM 2.25 + SAM 8.8 + CXM 2.25 
+    20 CXM 2.25 + SAM 8.8 + SAM 8.8 
+    21 CXM 2.25 + TZP 8.64 + CPR 32 
+    22 CXM 2.25 + TZP 8.64 + CXM 2.25 
+
+ [1  1  0  0] Prob =  1.000000e+00
+     7 Plans found:
+     1 AM 256 + AM 256 + CPR 32 
+     2 AM 256 + AMP 2048 + CPR 32 
+     3 AM 256 + CPR 32 + CXM 2.25 
+     4 AM 256 + CPR 32 + SAM 8.8 
+     5 CAZ 0.25 + AM 256 + CPR 32 
+     6 CTT 0.025 + AM 256 + CPR 32 
+     7 FEP 0.0625 + AM 256 + CPR 32 
+
+ [1  0  1  0] Prob =  1.000000e+00
+     3 Plans found:
+     1 CRO 0.05 + AMC 8.16 + CXM 2.25 
+     2 CRO 0.05 + AMC 8.16 + SAM 8.8 
+     3 ZOX 0.0156 + CRO 0.05 + AMC 8.16 
+
+ [1  0  0  1] Prob =  8.847245e-01
+     1 Plans found:
+     1 AMC 8.16 + AMC 8.16 + CXM 2.25 
+
+ [0  1  1  0] Prob =  1.000000e+00
+    18 Plans found:
+     1 CTX 0.04 + CXM 2.25 + CPR 32 
+     2 CTX 0.04 + CXM 2.25 + CXM 2.25 
+     3 CTX 0.04 + FEP 0.0625 + CPR 32 
+     4 CTX 0.04 + TZP 8.64 + CPR 32 
+     5 CXM 2.25 + CAZ 0.25 + CPR 32 
+     6 CXM 2.25 + CAZ 0.25 + CXM 2.25 
+     7 CXM 2.25 + CPR 32 + CXM 2.25 
+     8 CXM 2.25 + CPR 32 + SAM 8.8 
+     9 CXM 2.25 + CXM 2.25 + CXM 2.25 
+    10 CXM 2.25 + CXM 2.25 + SAM 8.8 
+    11 CXM 2.25 + TZP 8.64 + CPR 32 
+    12 CXM 2.25 + TZP 8.64 + CXM 2.25 
+    13 FEP 0.0625 + AM 256 + CPR 32 
+    14 FEP 0.0625 + AMP 2048 + CPR 32 
+    15 FEP 0.0625 + CPR 32 + CXM 2.25 
+    16 FEP 0.0625 + CPR 32 + SAM 8.8 
+    17 TZP 8.64 + CPR 32 + CXM 2.25 
+    18 TZP 8.64 + CPR 32 + SAM 8.8 
+
+ [0  1  0  1] Prob =  7.817163e-01
+     3 Plans found:
+     1 TZP 8.64 + AM 256 + CXM 2.25 
+     2 TZP 8.64 + CXM 2.25 + CXM 2.25 
+     3 TZP 8.64 + CXM 2.25 + SAM 8.8 
+
+ [0  0  1  1] Prob =  1.000000e+00
+    26 Plans found:
+     1 AMC 8.16 + AM 256 + CXM 2.25 
+     2 AMC 8.16 + AMC 8.16 + CXM 2.25 
+     3 AMC 8.16 + CXM 2.25 + CXM 2.25 
+     4 AMC 8.16 + CXM 2.25 + SAM 8.8 
+     5 CEC 4 + AMC 8.16 + CXM 2.25 
+     6 CEC 4 + CPR 32 + CXM 2.25 
+     7 CEC 4 + CXM 2.25 + CXM 2.25 
+     8 CEC 4 + TZP 8.64 + CPR 32 
+     9 CEC 4 + TZP 8.64 + CXM 2.25 
+    10 CPR 32 + CXM 2.25 + CXM 2.25 
+    11 CPR 32 + CXM 2.25 + SAM 8.8 
+    12 CRO 0.05 + AMC 8.16 + CXM 2.25 
+    13 CRO 0.05 + CPR 32 + CXM 2.25 
+    14 CRO 0.05 + CXM 2.25 + CXM 2.25 
+    15 CRO 0.05 + TZP 8.64 + CPR 32 
+    16 CRO 0.05 + TZP 8.64 + CXM 2.25 
+    17 CXM 2.25 + CXM 2.25 + CXM 2.25 
+    18 CXM 2.25 + CXM 2.25 + SAM 8.8 
+    19 TZP 8.64 + CAZ 0.25 + CPR 32 
+    20 TZP 8.64 + CAZ 0.25 + CXM 2.25 
+    21 TZP 8.64 + CPR 32 + CXM 2.25 
+    22 TZP 8.64 + CPR 32 + SAM 8.8 
+    23 TZP 8.64 + CXM 2.25 + CXM 2.25 
+    24 TZP 8.64 + CXM 2.25 + SAM 8.8 
+    25 TZP 8.64 + TZP 8.64 + CPR 32 
+    26 TZP 8.64 + TZP 8.64 + CXM 2.25 
+
+ [1  1  1  0] Prob =  8.889929e-01
+     1 Plans found:
+     1 TZP 8.64 + TZP 8.64 + AMC 8.16 
+
+ [1  1  0  1] Prob =  8.527711e-01
+     2 Plans found:
+     1 CPR 32 + AMC 8.16 + CXM 2.25 
+     2 TZP 8.64 + AMC 8.16 + CXM 2.25 
+
+ [1  0  1  1] Prob =  9.156793e-01
+     1 Plans found:
+     1 TZP 8.64 + AMC 8.16 + CXM 2.25 
+
+ [0  1  1  1] Prob =  1.000000e+00
+     5 Plans found:
+     1 CTX 0.04 + CXM 2.25 + CPR 32 
+     2 CTX 0.04 + CXM 2.25 + CXM 2.25 
+     3 CTX 0.04 + FEP 0.0625 + CPR 32 
+     4 CTX 0.04 + TZP 8.64 + CPR 32 
+     5 CXM 2.25 + CXM 2.25 + CXM 2.25 

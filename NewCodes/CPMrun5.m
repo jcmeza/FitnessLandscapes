@@ -22,12 +22,16 @@ for i=1:numalleles
 end
 
 for i1=1:numab
+  Mat1 = MatCell{i1};
   for i2=1:numab
+    Mat2 = Mat1*MatCell{i2};
     for i3=1:numab
+      Mat3 = Mat2*MatCell{i3};
       for i4=1:numab
+        Mat4 = Mat3*MatCell{i4};
         for i5=1:numab
-            MatProd = MatCell{i1}*MatCell{i2}*MatCell{i3}*MatCell{i4}*MatCell{i5};
-            treatijlmk= strcat(ABNames(i1),'+', ABNames(i2),'+',ABNames(i3),'+',ABNames(i4),'+',ABNames(i5));
+            MatProd = Mat4*MatCell{i5};
+            treatijlmk= [ABNames(i1),'+', ABNames(i2),'+',ABNames(i3),'+',ABNames(i4),'+',ABNames(i5)];
             for k=2:16
               WildProb = MatProd(k,1);
               if WildProb ~= 0

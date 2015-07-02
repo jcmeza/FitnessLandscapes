@@ -1,4 +1,4 @@
-function [] = PrintPlans(fid, winners)
+function [] = PrintPlans(fid, plans)
 % PrintPlans .... Print Treatment Plans 
 %
 % Inputs
@@ -8,11 +8,12 @@ function [] = PrintPlans(fid, winners)
 %                for returning to the wild type from one allele
 %  
 
-    formatSpec = '%6d %s\n';
-    [nrows,ncols] = size(winners);
+    formatSpec = '%6d %s %s %s %s %s %s %s %s %s %s';
+    [nrows,ncols] = size(plans);
     
     for row = 1:nrows
-        fprintf(fid, formatSpec, row, winners{row,:});
+        fprintf(fid, formatSpec, row, plans{row,:});
+        fprintf(fid,'\n');
     end
     
 end

@@ -22,8 +22,9 @@ for i=1:numalleles winners{i,1} = 0; end
 for i=1:numab
     for j=1:numab
         for l=1:numab
-            MatProd = MatCell{i}*MatCell{j}*MatCell{l};
-            treatijl = strcat(ABNames(i),'+', ABNames(j),'+',ABNames(l));
+            %treatijl = strcat(ABNames(i),'+', ABNames(j),'+',ABNames(l));
+            treatijl = [ABNames(i),'+', ABNames(j),'+',ABNames{l}];
+            MatProd = MatCell{i}*MatCell{j}*MatCell{l};   
             for k=2:16
                 WildProb = MatProd(k,1);
                 if WildProb ~= 0
