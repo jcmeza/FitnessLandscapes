@@ -1,9 +1,16 @@
 function [adj_list,adj_mat] = CompAdj(vertices)
-
 %
-% Given a nxm matrix 'vertices' CompAdj will output:
-% an nxm matrix adj_list where each row i lists the vertices adjacent to vertex i
-% an mxm adjcency matrix for the given graph represented by vertices
+% Usage: [adj_list, adj_mat] = CompAdj(vertices)
+% Given a nxm matrix 'vertices' CompAdj will compute an adjaceny list and 
+% an adjacency matrix corresponding to the vertices
+%
+% Input
+%   vertices .... nxm matrix with vertices in some predefined order
+% Output
+%   adj_list .... nxm matrix adj_list where each row i lists the 
+%                 vertices adjacent to vertex i
+%   adj_mat ..... mxm adjcency matrix for the given graph 
+%                 represented by vertices
 %
 
 [n, m] = size(vertices);

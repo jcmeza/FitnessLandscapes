@@ -1,0 +1,62 @@
+Output File name: T85Length2.out
+
+ [1  0  0  0] Prob =  1.000000e+00
+     2 Plans found:
+     1 AMC 8.16+CXM 2.25
+     2 AMC 8.16+SAM 8.8
+
+ [0  1  0  0] Prob =  1.000000e+00
+     4 Plans found:
+     1 AM 256+CPR 32
+     2 AMP 2048+CPR 32
+     3 CPR 32+CXM 2.25
+     4 CPR 32+SAM 8.8
+
+ [0  0  1  0] Prob =  1.000000e+00
+     8 Plans found:
+     1 CAZ 0.25+CPR 32
+     2 CAZ 0.25+CXM 2.25
+     3 CPR 32+CXM 2.25
+     4 CPR 32+SAM 8.8
+     5 CXM 2.25+CXM 2.25
+     6 CXM 2.25+SAM 8.8
+     7 TZP 8.64+CPR 32
+     8 TZP 8.64+CXM 2.25
+
+ [0  0  0  1] Prob =  1.000000e+00
+     4 Plans found:
+     1 AM 256+CXM 2.25
+     2 AMC 8.16+CXM 2.25
+     3 CXM 2.25+CXM 2.25
+     4 CXM 2.25+SAM 8.8
+
+ [1  1  0  0] Prob =  1.000000e+00
+     1 Plans found:
+     1 AM 256+CPR 32
+
+ [1  0  1  0] Prob =  1.000000e+00
+     1 Plans found:
+     1 CRO 0.05+AMC 8.16
+
+ [1  0  0  1] Prob =  8.527711e-01
+     1 Plans found:
+     1 AMC 8.16+CXM 2.25
+
+ [0  1  1  0] Prob =  1.000000e+00
+     4 Plans found:
+     1 CXM 2.25+CPR 32
+     2 CXM 2.25+CXM 2.25
+     3 FEP 0.0625+CPR 32
+     4 TZP 8.64+CPR 32
+
+ [0  1  0  1] Prob =  7.817163e-01
+     1 Plans found:
+     1 TZP 8.64+CXM 2.25
+
+ [0  0  1  1] Prob =  1.000000e+00
+     5 Plans found:
+     1 AMC 8.16+CXM 2.25
+     2 CPR 32+CXM 2.25
+     3 CXM 2.25+CXM 2.25
+     4 TZP 8.64+CPR 32
+     5 TZP 8.64+CXM 2.25

@@ -17,7 +17,9 @@ numab = length(ABNames); % determine number of antibiotics
 
 winners = cell(numalleles,2);    % initialize cell of winners. 
 
-for i=1:numalleles winners{i,1} = 0; end
+for i=1:numalleles 
+    winners{i,1} = 0; 
+end
 
 for i=1:numab
     for j=1:numab

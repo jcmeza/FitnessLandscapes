@@ -75,4 +75,4 @@ for i=2:numalleles
         
 end
 
-fprintf('%s %s\n', 'Output saved in', outfile);
+fprintf(fid, 'Output save in \n');

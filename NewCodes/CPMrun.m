@@ -11,13 +11,19 @@ function winners = CPMrun(MatCell,ABNames)
 %     winners .... cell array containing highest probability transitions
 %                  with corresponding antibiotic treatments 
 %
+% Note: This was the original version (ancestor) of CPMrun2, CPMrun3,
+%       CPMrun4, etc.
+%       It is no longer being called by any other function
+%
 
 numalleles = 16;
 numab = length(ABNames); % determine number of antibiotics
 
 winners = cell(numalleles,2);    % initialize cell of winners. 
 
-for i=1:numalleles winners{i,1} = 0; end
+for i=1:numalleles 
+    winners{i,1} = 0; 
+end
 
 for i=1:numab
     for j=1:numab

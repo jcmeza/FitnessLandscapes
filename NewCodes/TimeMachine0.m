@@ -1,6 +1,7 @@
 %
 % Matlab version of Bernd's CPMrun Maple scripts
-% Using his M matrices
+% This version of TimeMachine simpley reads the M matrices computed and
+% saved by Bernd's Maple code
 %
 % The number of alleles may change in the future, but for now it is set to
 % 16

@@ -1,7 +1,12 @@
 function MatCell = readAll()
 %
-% Read in all the csv files
+% Read in the Probability Matrices in the csv files
 %
+% If the probability matrices are already saved in csv format
+% this function reads them and stores them in one cell array
+%
+%
+
 M1 = readMat('M1.csv');
 M2 = readMat('M2.csv');
 M3 = readMat('M3.csv');

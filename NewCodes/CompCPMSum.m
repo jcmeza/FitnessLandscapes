@@ -1,5 +1,7 @@
 function [fitnessSum] = CompCPMSum(adj_list,growthmeans)
 %
+% Usage: [fitnessSum] = CompCPMSum(adj_list,growthmeans)
+%
 % Helper function for CompCPM 
 %
 % Input

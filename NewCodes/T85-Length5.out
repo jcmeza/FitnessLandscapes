@@ -1,0 +1,36 @@
+
+ [1  0  0  0] Prob =  1.000000e+00
+     2 Plans found:
+
+ [0  1  0  0] Prob =  1.000000e+00
+     4 Plans found:
+
+ [0  0  1  0] Prob =  1.000000e+00
+     8 Plans found:
+
+ [0  0  0  1] Prob =  1.000000e+00
+     4 Plans found:
+
+ [1  1  0  0] Prob =  1.000000e+00
+     1 Plans found:
+
+ [1  0  1  0] Prob =  1.000000e+00
+     1 Plans found:
+
+ [1  0  0  1] Prob =  8.527711e-01
+     1 Plans found:
+
+ [0  1  1  0] Prob =  1.000000e+00
+     4 Plans found:
+
+ [0  1  0  1] Prob =  7.817163e-01
+     1 Plans found:
+
+ [0  0  1  1] Prob =  1.000000e+00
+     5 Plans found:
+
+ [1  1  1  0] No Plans Found 
+ [1  1  0  1] No Plans Found 
+ [1  0  1  1] No Plans Found 
+ [0  1  1  1] No Plans Found 
+ [1  1  1  1] No Plans Found 

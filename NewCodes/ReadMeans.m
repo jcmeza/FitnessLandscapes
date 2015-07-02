@@ -1,10 +1,11 @@
 function [ vertices, GRMeans, ABNames] = ReadMeans(MeansFile)
-%ReadMeans()
 %
-% Read the files containing the vertex information in degree lex order and
-% the file containing the growth means for all antibiotics (in same order)
+% Usage: [vertices, GRMeans, ABNames] = ReadMeans(MeansFile)
+%
+% Read the file containing the vertex information in degree lex order and
+% the file containing the growth means for all antibiotics (in some order)
 % Note that we are assuming that the csv file for the means has exactly 
-% 15 antibiotics and we have 2^4 = 16 substitutions
+% 15 antibiotics and we have 2^4 = 16 substitutions/genotypes/alleles
 %
 % Input
 %   MeansFile ...... file containing the growth rate means in csv format
@@ -15,15 +16,22 @@ function [ vertices, GRMeans, ABNames] = ReadMeans(MeansFile)
 %   ABNames ........ vector (15x1) containing the names of the antibiotic
 %
 % Function called
-%   ReadABNames
+%   ReadABNames .... reads the antibiotic names from the growth rates file
 %
+
+%
+% Default to MeanAll_50.csv if an input argument is not provided
 
 if nargin < 1 
     MeansFile = 'MeanAll_T50.csv';
 end
 
-vertices = csvread('vertdeglex.csv');
+vertices = csvread('vertdeglex.csv');%
+
+% the actual data is stored after the first column and row
 GRMeans = csvread(MeansFile,1,1,[1 1 15 16]);
+
+% the antibiotic names should be in the first column
 ABNames = ReadABNames(MeansFile,2,16);
 
 end
