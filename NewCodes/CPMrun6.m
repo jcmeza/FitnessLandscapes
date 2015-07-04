@@ -1,4 +1,4 @@
-function winners = CPMrun4(MatCell,ABNames)
+function winners = CPMrun6(MatCell,ABNames)
 %
 % Compute every combination of length 2 transition probability matrices
 % which corresponds to antibiotic cycles of length 2
@@ -17,30 +17,38 @@ numab = length(ABNames); % determine number of antibiotics
 
 winners = cell(numalleles,2);    % initialize cell of winners. 
 
-for i1=1:numalleles winners{i1,1} = 0; end
+for i=1:numalleles 
+    winners{i,1} = 0; 
+end
 
 for i1=1:numab
-    MatProd = MatCell{i1};
-    for i2=1:numab
-        MatProd = MatProd*MatCell{i2};
-        for i3=1:numab
-            MatProd = MatProd*MatCell{i3};
-            for i4=1:numab
-                treatijlm = [ABNames(i1),'+', ABNames(i2),'+',ABNames(i3),'+',ABNames(i4)];
-                MatProd = MatCell{i1}*MatCell{i2}*MatCell{i3};
-                WildProb = MatProd(:,1);        
+  Mat1 = MatCell{i1};
+  for i2=1:numab
+    Mat2 = Mat1*MatCell{i2};
+    for i3=1:numab
+      Mat3 = Mat2*MatCell{i3};
+      for i4=1:numab
+        Mat4 = Mat3*MatCell{i4};
+        for i5=1:numab
+            Mat5 = Mat4*MatCell{i4};
+            for i6=1:numab
+                treatname= [ABNames(i1),'+', ABNames(i2),'+',ABNames(i3),'+',ABNames(i4),'+',ABNames(i5),'+',ABNames(i6)];
+                Mat6 = Mat5*MatCell{i5};
+                WildProb = Mat6(:,1);        
                 nzprob = find(WildProb)'; % find nonzero probabilities
-                
-                for k=nzprob %only check when WildProb(k) ~= 0  
+ 
+                for k=nzprob
                     if WildProb(k) > winners{k,1}
                         winners{k,1} = WildProb(k);
-                        winners{k,2} = treatijlm;
+                        winners{k,2} = treatname;
                     elseif WildProb(k) == winners{k,1}
-                        winners{k,2} = [winners{k,2}; treatijlm];
+                        winners{k,2} = [winners{k,2}; treatname];
                     end
                 end
             end
         end
+      end
     end
+  end
 end
-        
+end

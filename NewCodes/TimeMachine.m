@@ -4,11 +4,12 @@
 %
 % The number of alleles may change in the future, but for now it is set to
 % 16
+t = cputime;
 numalleles = 16;
 
 % Read in the Growth Rate means file and save the Antibiotic names
-%[vertices, GRMeans, ABNames] = ReadMeans('MeanAll_T50_reorder.csv');
-[vertices, GRMeans, ABNames] = ReadMeans('MeanAll_T85.csv');
+[vertices, GRMeans, ABNames] = ReadMeans('MeanAll_T50_reorder.csv');
+%[vertices, GRMeans, ABNames] = ReadMeans('MeanAll_T85.csv');
 
 
 numab = length(ABNames); % determine number of antibiotics
@@ -47,13 +48,16 @@ switch cycle_length
         winners = CPMrun4(MMatrixCell,ABNames);
     case {5} 
         winners = CPMrun5(MMatrixCell,ABNames);
+    case {6} 
+        winners = CPMrun6(MMatrixCell,ABNames);
 end
 
 %
 % Print out results in a nice readable format
 % Open output file
 %
-outfile = strcat('T85', 'Length', num2str(cycle_length), '.out');
+%outfile = strcat('T85', 'Length', num2str(cycle_length), '.out');
+outfile = strcat('T50', 'Length', num2str(cycle_length), '.out');
 fid = fopen(outfile, 'w');
 fprintf(fid, 'Output File name: %s\n', outfile);
 
@@ -74,5 +78,9 @@ for i=2:numalleles
     end
         
 end
+runtime = cputime-t;
 
 fprintf('%s %s\n', 'Output saved in', outfile);
+fprintf('%s %e\n', 'Run time = ', runtime);
+fprintf(fid,'%s %e\n', 'Run time = ', runtime);
+
