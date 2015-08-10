@@ -571,3 +571,4 @@ Output File name: T50Length4.out
      2 CEC 1 + CPR 10 + TZP 8.128 + AM 512 
      3 CPR 10 + CAZ 0.1 + TZP 8.128 + AM 512 
      4 CPR 10 + CPR 10 + TZP 8.128 + AM 512 
+Run time =  8.200000e+00

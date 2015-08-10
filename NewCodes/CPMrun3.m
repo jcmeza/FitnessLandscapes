@@ -17,21 +17,23 @@ numab = length(ABNames); % determine number of antibiotics
 
 winners = cell(numalleles,2);    % initialize cell of winners. 
 
-for i=1:numalleles winners{i,1} = 0; end
+for i1=1:numalleles winners{i1,1} = 0; end
 
-for i=1:numab
-    for j=1:numab
-        for l=1:numab
-            treatijl = [ABNames(i),'+', ABNames(j),'+',ABNames{l}];
-            MatProd = MatCell{i}*MatCell{j}*MatCell{l}; 
-            WildProb = MatProd(:,1);        
+for i1=1:numab
+    Mat1 = MatCell{i1};
+    for i2=1:numab
+        Mat2 = Mat1*MatCell{i2};
+        for i3=1:numab
+            treatijl = [ABNames(i1),'+', ABNames(i2),'+',ABNames(i3)];
+            Mat3 = Mat2*MatCell{i3};
+            WildProb = Mat3(:,1);        
             nzprob = find(WildProb)'; % find nonzero probabilities
             
             for k=nzprob
-                if WildProb > winners{k,1}
+                if WildProb(k) > winners{k,1}
                     winners{k,1} = WildProb;
                     winners{k,2} = treatijl;
-                elseif WildProb == winners{k,1}
+                elseif WildProb(k) == winners{k,1}
                     winners{k,2} = [winners{k,2}; treatijl];
                 end     
             end

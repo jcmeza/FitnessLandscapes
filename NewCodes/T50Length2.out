@@ -49,3 +49,9 @@ Output File name: T50Length2.out
  [0  0  1  1] Prob =  3.614667e-01
      1 Plans found:
      1 AM 512 + TZP 8.128 
+
+ [1  1  1  0] No Plans Found 
+ [1  1  0  1] No Plans Found 
+ [1  0  1  1] No Plans Found 
+ [0  1  1  1] No Plans Found 
+ [1  1  1  1] No Plans Found Run time =  4.500000e-01
