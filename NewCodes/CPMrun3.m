@@ -31,7 +31,7 @@ for i1=1:numab
             
             for k=nzprob
                 if WildProb(k) > winners{k,1}
-                    winners{k,1} = WildProb;
+                    winners{k,1} = WildProb(k);
                     winners{k,2} = treatijl;
                 elseif WildProb(k) == winners{k,1}
                     winners{k,2} = [winners{k,2}; treatijl];

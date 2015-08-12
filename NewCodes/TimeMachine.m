@@ -8,8 +8,8 @@ t = cputime;
 numalleles = 16;
 
 % Read in the Growth Rate means file and save the Antibiotic names
-[vertices, GRMeans, ABNames] = ReadMeans('MeanAll_T50_reorder.csv');
-%[vertices, GRMeans, ABNames] = ReadMeans('MeanAll_T85.csv');
+%[vertices, GRMeans, ABNames] = ReadMeans('MeanAll_T50_reorder.csv');
+[vertices, GRMeans, ABNames] = ReadMeans('MeanAll_T85.csv');
 
 
 numab = length(ABNames); % determine number of antibiotics
@@ -56,8 +56,8 @@ end
 % Print out results in a nice readable format
 % Open output file
 %
-%outfile = strcat('T85', 'Length', num2str(cycle_length), '.out');
-outfile = strcat('T50', 'Length', num2str(cycle_length), '.out');
+outfile = strcat('T85', 'Length', num2str(cycle_length), '.out');
+%outfile = strcat('T50', 'Length', num2str(cycle_length), '.out');
 fid = fopen(outfile, 'w');
 fprintf(fid, 'Output File name: %s\n', outfile);
 
