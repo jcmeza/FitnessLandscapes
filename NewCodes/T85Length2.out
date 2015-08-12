@@ -56,13 +56,13 @@ Output File name: T85Length2.out
  [0  0  1  1] Prob =  1.000000e+00
      5 Plans found:
      1 AMC 8.16 + CXM 2.25 
-     2 CPR 32 +
- [1  1  1  0] No Plans Found 
- [1  1  0  1] No Plans Found 
- [1  0  1  1] No Plans Found 
- [
+     2 CPR 32 + CXM 2.25 
+     3 CXM 2.25 + CXM 2.25 
+     4 TZP 8.64 + CPR 32 
+     5 TZP 8.64 + CXM 2.25 
+
  [1  1  1  0] No Plans Found 
  [1  1  0  1] No Plans Found 
  [1  0  1  1] No Plans Found 
  [0  1  1  1] No Plans Found 
- [1  1  1  1] No Plans Found 
+ [1  1  1  1] No Plans Found Run time =  5.000000e-01

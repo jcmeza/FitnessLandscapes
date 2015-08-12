@@ -4,6 +4,7 @@ function [ vertices, GRMeans, ABNames] = ReadMeans(MeansFile)
 %
 % Read the file containing the vertex information in degree lex order and
 % the file containing the growth means for all antibiotics (in some order)
+% IMPORTANT!!!
 % Note that we are assuming that the csv file for the means has exactly 
 % 15 antibiotics and we have 2^4 = 16 substitutions/genotypes/alleles
 %
@@ -28,11 +29,17 @@ end
 
 vertices = csvread('vertdeglex.csv');%
 
-% the actual data is stored after the first column and row
-GRMeans = csvread(MeansFile,1,1,[1 1 15 16]);
+
+% IMPORTANT!!! Hard coded number of antibiotics to 15
+% This should be changed so that it is computed from the input file
+% Also note the actual data is stored after the first column and row
+
+numab = 15;
+numallele = 16;
+GRMeans = csvread(MeansFile,1,1,[1 1 numab numallele]);
 
 % the antibiotic names should be in the first column
-ABNames = ReadABNames(MeansFile,2,16);
+ABNames = ReadABNames(MeansFile,2,numab+1);
 
 end
 

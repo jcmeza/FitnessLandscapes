@@ -7,10 +7,12 @@
 t = cputime;
 numalleles = 16;
 
-% Read in the Growth Rate means file and save the Antibiotic names
-%[vertices, GRMeans, ABNames] = ReadMeans('MeanAll_T50_reorder.csv');
-[vertices, GRMeans, ABNames] = ReadMeans('MeanAll_T85.csv');
+% Prompt for filename and read in the Growth Rate means
+% Antibiotic names saved in ABNames
 
+prompt = 'Please enter file name containing growth rate means: ';
+filename = input(prompt,'s');
+[vertices, GRMeans, ABNames] = ReadMeans(filename);
 
 numab = length(ABNames); % determine number of antibiotics
 
