@@ -1,0 +1,155 @@
+Output File name: MeanAll-Length3.out
+
+ [1  0  0  0] Prob =  1.000000e+00
+     7 Plans found:
+     1 CPR 10 + FEP 0.0156 + FEP 0.0156 
+     2 CTT 0.0325 + CPR 10 + FEP 0.0156 
+     3 CTT 0.0325 + CTT 0.0325 + CPR 10 
+     4 CTT 0.0325 + TZP 8.128 + CPR 10 
+     5 TZP 8.128 + CPR 10 + FEP 0.0156 
+     6 TZP 8.128 + CTT 0.0325 + CPR 10 
+     7 TZP 8.128 + TZP 8.128 + CPR 10 
+
+ [0  1  0  0] Prob =  6.171862e-01
+    36 Plans found:
+     1 AM 512 + FEP 0.0156 + FEP 0.0156 
+     2 AMC 8.512 + AM 512 + FEP 0.0156 
+     3 AMC 8.512 + AMC 8.512 + AM 512 
+     4 AMC 8.512 + CEC 1 + AM 512 
+     5 AMC 8.512 + CRO 0.045 + AM 512 
+     6 AMC 8.512 + CTT 0.0325 + AM 512 
+     7 AMC 8.512 + CXM 1.5 + AM 512 
+     8 CEC 1 + AM 512 + FEP 0.0156 
+     9 CEC 1 + AMC 8.512 + AM 512 
+    10 CEC 1 + CEC 1 + AM 512 
+    11 CEC 1 + CRO 0.045 + AM 512 
+    12 CEC 1 + CTT 0.0325 + AM 512 
+    13 CEC 1 + CXM 1.5 + AM 512 
+    14 CPD 2 + TZP 8.128 + AM 512 
+    15 CRO 0.045 + AM 512 + FEP 0.0156 
+    16 CRO 0.045 + AMC 8.512 + AM 512 
+    17 CRO 0.045 + CEC 1 + AM 512 
+    18 CRO 0.045 + CRO 0.045 + AM 512 
+    19 CRO 0.045 + CTT 0.0325 + AM 512 
+    20 CRO 0.045 + CXM 1.5 + AM 512 
+    21 CTT 0.0325 + AM 512 + FEP 0.0156 
+    22 CTT 0.0325 + AMC 8.512 + AM 512 
+    23 CTT 0.0325 + CEC 1 + AM 512 
+    24 CTT 0.0325 + CRO 0.045 + AM 512 
+    25 CTT 0.0325 + CTT 0.0325 + AM 512 
+    26 CTT 0.0325 + CXM 1.5 + AM 512 
+    27 CTX 0.05 + TZP 8.128 + AM 512 
+    28 CXM 1.5 + AM 512 + FEP 0.0156 
+    29 CXM 1.5 + AMC 8.512 + AM 512 
+    30 CXM 1.5 + CEC 1 + AM 512 
+    31 CXM 1.5 + CRO 0.045 + AM 512 
+    32 CXM 1.5 + CTT 0.0325 + AM 512 
+    33 CXM 1.5 + CXM 1.5 + AM 512 
+    34 SAM 8.8 + CTX 0.05 + AM 512 
+    35 SAM 8.8 + CXM 1.5 + AM 512 
+    36 SAM 8.8 + ZOX 0.3 + AM 512 
+
+ [0  0  1  0] Prob =  7.146233e-01
+     3 Plans found:
+     1 AM 512 + AM 512 + TZP 8.128 
+     2 AM 512 + TZP 8.128 + FEP 0.0156 
+     3 TZP 8.128 + FEP 0.0156 + FEP 0.0156 
+
+ [0  0  0  1] Prob =  5.919044e-01
+     2 Plans found:
+     1 AMC 8.512 + CRO 0.045 + AM 512 
+     2 TZP 8.128 + CRO 0.045 + AM 512 
+
+ [1  1  0  0] Prob =  6.171862e-01
+    18 Plans found:
+     1 CTX 0.05 + AM 512 + FEP 0.0156 
+     2 CTX 0.05 + AMC 8.512 + AM 512 
+     3 CTX 0.05 + CEC 1 + AM 512 
+     4 CTX 0.05 + CRO 0.045 + AM 512 
+     5 CTX 0.05 + CTT 0.0325 + AM 512 
+     6 CTX 0.05 + CXM 1.5 + AM 512 
+     7 CXM 1.5 + AM 512 + FEP 0.0156 
+     8 CXM 1.5 + AMC 8.512 + AM 512 
+     9 CXM 1.5 + CEC 1 + AM 512 
+    10 CXM 1.5 + CRO 0.045 + AM 512 
+    11 CXM 1.5 + CTT 0.0325 + AM 512 
+    12 CXM 1.5 + CXM 1.5 + AM 512 
+    13 ZOX 0.3 + AM 512 + FEP 0.0156 
+    14 ZOX 0.3 + AMC 8.512 + AM 512 
+    15 ZOX 0.3 + CEC 1 + AM 512 
+    16 ZOX 0.3 + CRO 0.045 + AM 512 
+    17 ZOX 0.3 + CTT 0.0325 + AM 512 
+    18 ZOX 0.3 + CXM 1.5 + AM 512 
+
+ [1  0  1  0] Prob =  7.146233e-01
+     6 Plans found:
+     1 CPD 2 + ZOX 0.3 + TZP 8.128 
+     2 CRO 0.045 + ZOX 0.3 + TZP 8.128 
+     3 CTX 0.05 + ZOX 0.3 + TZP 8.128 
+     4 FEP 0.0156 + ZOX 0.3 + TZP 8.128 
+     5 ZOX 0.3 + AM 512 + TZP 8.128 
+     6 ZOX 0.3 + TZP 8.128 + FEP 0.0156 
+
+ [1  0  0  1] Prob =  5.589744e-01
+     4 Plans found:
+     1 CTT 0.0325 + CPR 10 + FEP 0.0156 
+     2 CTT 0.0325 + CTT 0.0325 + CPR 10 
+     3 CTT 0.0325 + TZP 8.128 + CPR 10 
+     4 ZOX 0.3 + CTT 0.0325 + CPR 10 
+
+ [0  1  1  0] Prob =  6.171862e-01
+    10 Plans found:
+     1 AMP8X 256 + TZP 8.128 + AM 512 
+     2 CAZ 0.1 + TZP 8.128 + AM 512 
+     3 CPR 10 + TZP 8.128 + AM 512 
+     4 CTX 0.05 + TZP 8.128 + AM 512 
+     5 TZP 8.128 + AM 512 + FEP 0.0156 
+     6 TZP 8.128 + AMC 8.512 + AM 512 
+     7 TZP 8.128 + CEC 1 + AM 512 
+     8 TZP 8.128 + CRO 0.045 + AM 512 
+     9 TZP 8.128 + CTT 0.0325 + AM 512 
+    10 TZP 8.128 + CXM 1.5 + AM 512 
+
+ [0  1  0  1] Prob =  5.919044e-01
+     9 Plans found:
+     1 CAZ 0.1 + CRO 0.045 + AM 512 
+     2 CPR 10 + CRO 0.045 + AM 512 
+     3 CRO 0.045 + AM 512 + FEP 0.0156 
+     4 CRO 0.045 + AMC 8.512 + AM 512 
+     5 CRO 0.045 + CEC 1 + AM 512 
+     6 CRO 0.045 + CRO 0.045 + AM 512 
+     7 CRO 0.045 + CTT 0.0325 + AM 512 
+     8 CRO 0.045 + CXM 1.5 + AM 512 
+     9 TZP 8.128 + CRO 0.045 + AM 512 
+
+ [0  0  1  1] Prob =  3.614667e-01
+     9 Plans found:
+     1 AM 512 + AM 512 + TZP 8.128 
+     2 AM 512 + TZP 8.128 + FEP 0.0156 
+     3 AMP8X 256 + AM 512 + TZP 8.128 
+     4 CAZ 0.1 + AM 512 + TZP 8.128 
+     5 CEC 1 + AM 512 + TZP 8.128 
+     6 CPR 10 + AM 512 + TZP 8.128 
+     7 CRO 0.045 + AM 512 + TZP 8.128 
+     8 CTX 0.05 + AM 512 + TZP 8.128 
+     9 FEP 0.0156 + AM 512 + TZP 8.128 
+
+ [1  1  1  0] Prob =  6.171862e-01
+     2 Plans found:
+     1 CAZ 0.1 + TZP 8.128 + AM 512 
+     2 CPR 10 + TZP 8.128 + AM 512 
+
+ [1  1  0  1] Prob =  5.919044e-01
+     2 Plans found:
+     1 CAZ 0.1 + CRO 0.045 + AM 512 
+     2 TZP 8.128 + CRO 0.045 + AM 512 
+
+ [1  0  1  1] Prob =  5.319472e-01
+     1 Plans found:
+     1 TZP 8.128 + CTT 0.0325 + CPR 10 
+
+ [0  1  1  1] Prob =  5.856736e-01
+     1 Plans found:
+     1 TZP 8.128 + CRO 0.045 + AM 512 
+
+ [1  1  1  1] No Plans Found Run time =  7.400000e-01

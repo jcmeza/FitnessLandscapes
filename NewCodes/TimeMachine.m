@@ -12,6 +12,9 @@ numalleles = 16;
 
 prompt = 'Please enter file name containing growth rate means: ';
 filename = input(prompt,'s');
+outname = strsplit(filename,'.'); % capture filename part before the '.csv'
+outfile = outname(1);
+
 [vertices, GRMeans, ABNames] = ReadMeans(filename);
 
 numab = length(ABNames); % determine number of antibiotics
@@ -56,10 +59,13 @@ end
 
 %
 % Print out results in a nice readable format
+% Output file name will consist of input file name with cycle lenght 
+% appended to record which problem we solved
 % Open output file
 %
-outfile = strcat('T85', 'Length', num2str(cycle_length), '.out');
-%outfile = strcat('T50', 'Length', num2str(cycle_length), '.out');
+%outfile = strcat('T85', 'Length', num2str(cycle_length), '.out');
+outfile = strcat(char(outfile),'-Length', num2str(cycle_length), '.out')
+
 fid = fopen(outfile, 'w');
 fprintf(fid, 'Output File name: %s\n', outfile);
 
