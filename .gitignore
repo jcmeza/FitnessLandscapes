@@ -1,0 +1,10 @@
+.DS_Store
+.DS_Store?
+#*#
+*.o
+matlab.mat
+*.zip
+*.gz
+*.tar
+*.dmg
+*~
