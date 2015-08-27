@@ -6,7 +6,7 @@ function [ vertices, GRMeans, ABNames] = ReadMeans(MeansFile)
 % the file containing the growth means for all antibiotics (in some order)
 % IMPORTANT!!!
 % Note that we are assuming that the csv file for the means has exactly 
-% 15 antibiotics and we have 2^4 = 16 substitutions/genotypes/alleles
+% 2^4 = 16 substitutions/genotypes/alleles
 %
 % Input
 %   MeansFile ...... file containing the growth rate means in csv format
@@ -34,11 +34,13 @@ vertices = csvread('vertdeglex.csv');%
 % This should be changed so that it is computed from the input file
 % Also note the actual data is stored after the first column and row
 
-numab = 15;
 numallele = 16;
+numab = countlines(MeansFile); % Compute number of lines in the file
+
+% Growth Rate Means should start in the (2,2) entry
 GRMeans = csvread(MeansFile,1,1,[1 1 numab numallele]);
 
-% the antibiotic names should be in the first column
+% the antibiotic names should be in the first column of the csv file
 ABNames = ReadABNames(MeansFile,2,numab+1);
 
 end

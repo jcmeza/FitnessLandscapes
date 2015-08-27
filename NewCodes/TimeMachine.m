@@ -4,7 +4,7 @@
 %
 % The number of alleles may change in the future, but for now it is set to
 % 16
-t = cputime;
+
 numalleles = 16;
 
 % Prompt for filename and read in the Growth Rate means
@@ -43,6 +43,7 @@ end
 prompt = 'Please enter cycle length: ';
 cycle_length = input(prompt);
 
+t = cputime;
 switch cycle_length
     
     case {2} 
@@ -56,7 +57,7 @@ switch cycle_length
     case {6} 
         winners = CPMrun6(MMatrixCell,ABNames);
 end
-
+runtime = cputime-t;
 %
 % Print out results in a nice readable format
 % Output file name will consist of input file name with cycle lenght 
@@ -64,10 +65,13 @@ end
 % Open output file
 %
 %outfile = strcat('T85', 'Length', num2str(cycle_length), '.out');
-outfile = strcat(char(outfile),'-Length', num2str(cycle_length), '.out')
+outfile = strcat(char(outfile),'-Length', num2str(cycle_length), '.out');
 
 fid = fopen(outfile, 'w');
+fprintf(fid, 'Simulation run on: %s\n', date);
 fprintf(fid, 'Output File name: %s\n', outfile);
+fprintf(fid, 'Length of cycle: %d\n', cycle_length);
+fprintf(fid, 'Run time: %e\n', runtime);
 
 for i=2:numalleles
     allele = strcat('[', num2str(vertices(i,:)),']');
@@ -86,9 +90,9 @@ for i=2:numalleles
     end
         
 end
-runtime = cputime-t;
+
 
 fprintf('%s %s\n', 'Output saved in', outfile);
 fprintf('%s %e\n', 'Run time = ', runtime);
-fprintf(fid,'%s %e\n', 'Run time = ', runtime);
+
 

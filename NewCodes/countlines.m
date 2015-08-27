@@ -3,7 +3,7 @@ function [numlines] = countlines(filename)
 %   Detailed explanation goes here
 % count lines
 
-fid = fopen(filename,'rt');git
+fid = fopen(filename,'rt');
 a   = fread(fid,inf,'*char');
 is  = a==char(13);
 numlines = sum(is);
