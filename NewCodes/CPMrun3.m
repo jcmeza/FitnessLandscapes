@@ -30,6 +30,9 @@ for i1=1:numab
             nzprob = find(WildProb)'; % find nonzero probabilities
             
             for k=nzprob
+                %if WildProb(k) > .3333333 && WildProb(k) < .6666667
+                %    winners{k,2} = [winners{k,2}; treatijl];
+                %end
                 if WildProb(k) > winners{k,1}
                     winners{k,1} = WildProb(k);
                     winners{k,2} = treatijl;

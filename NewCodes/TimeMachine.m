@@ -33,7 +33,12 @@ for i=1:numab
     ProbMat = CompCPM(adj_list,gri,fitnessSum);
     MMatrixCell(i) = {ProbMat};
 end
-
+%
+% Compute maximum probabilities for all transitions for each pair of
+% vertices
+%
+Mk = reshape(cell2mat(MMatrixCell),16,16,[]);
+[MaxP,IMaxP] = max(Mk,[],3);
 %
 % Choose the cycle path 
 %   CPMrun2 .... length 2 cycles
@@ -91,8 +96,10 @@ for i=2:numalleles
         
 end
 
-
 fprintf('%s %s\n', 'Output saved in', outfile);
 fprintf('%s %e\n', 'Run time = ', runtime);
-
+fprintf('Max Transition Probabilities\n');
+fprintf([repmat(' %6.2f', 1, 16) '\n'], MaxP);
+fprintf('Max Transition Probabilities Indices\n');
+fprintf([repmat(' %6d', 1, 16) '\n'], IMaxP);
 
