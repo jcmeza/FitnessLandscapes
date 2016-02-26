@@ -1,7 +1,7 @@
-Simulation run on: 31-Aug-2015
+Simulation run on: 21-Sep-2015
 Output File name: MeanAll_T50-Length3.out
 Length of cycle: 3
-Run time: 3.400000e-01
+Run time: 4.000000e-01
 
  [1  0  0  0] Prob =  1.000000e+00
      7 Plans found:
@@ -154,3 +154,5 @@ Run time: 3.400000e-01
  [0  1  1  1] Prob =  5.856736e-01
      1 Plans found:
      1 TZP 8.128 + CRO 0.045 + AM 512 
+
+ [1  1  1  1] No Plans Found 
